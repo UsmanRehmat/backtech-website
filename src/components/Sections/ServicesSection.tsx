@@ -6,13 +6,20 @@ import Link from "next/link";
 import { styles } from "@utils/styles";
 import { Container, Row, Col } from "react-bootstrap";
 
+// Website
+// Mobile App
+// Backend
+// Frontend
+// DevOps
+// UI/UX
+
 const ServicesSection = () => {
   const services = [
     {
       to: "/service/logo",
-      title: "Logo & Branding",
+      title: "Backend Development",
       description:
-        "Create a strong and recognizable identity for your business with our expert logo and branding services. Our team of skilled designers will work closely with you to bring your vision to life and leave a lasting impression on your audience.",
+        "At our software agency, we specialize in top-notch backend development services. Our expert team ensures the creation of scalable, efficient, and secure server-side architectures. From database design to API integrations, we focus on performance and reliability, providing a robust foundation for your digital solutions.",
       icon: "ml-des-62-Precision-compasses-graphics-design-tool-interface",
       style: styles("cd"),
     },
@@ -34,25 +41,26 @@ const ServicesSection = () => {
     },
     {
       to: "/service/seo",
-      title: "Search Engine Optimization",
+      title: "Frontend Development",
       description:
-        "Drive traffic and boost your online visibility with our comprehensive search engine optimization (SEO) services. Our SEO experts will work with you to develop a customized strategy that targets the keywords and phrases your audience is searching for.",
+        "At our software agency, we specialize in creating engaging and intuitive user interfaces through our top-tier frontend development services. From responsive web design to interactive applications, we leverage cutting-edge technologies to enhance user satisfaction and bring your digital vision to life.",
       icon: "ml-tec-8-search-magnifier-computer-desktop-monitor-laptop",
       style: styles("cd"),
     },
+    // we are a software agency write short paragraph on frontend development services we provide
     {
       to: "/service/ppc",
-      title: "Pay-Per-Click",
+      title: "DevOps",
       description:
-        "Drive targeted traffic to your website and increase conversions with our pay-per-click (PPC) advertising services. Our experienced PPC team will create a customized strategy that targets your ideal customer, utilizing platforms like Google Ads and social media advertising to reach them at the right time and place.",
+        "At our software agency, we provide efficient DevOps services, integrating automation and continuous delivery to streamline your development processes. Our experts focus on speed, quality, and collaboration, enabling you to deliver software faster and more reliably, giving you a competitive edge in the digital landscape.",
       icon: "ml-symtwo-34-cursor-click-browser-website-arrow-computer",
       style: styles("ab"),
     },
     {
       to: "/service/smm",
-      title: "Social Media Marketing",
+      title: "UI/UX",
       description:
-        "Engage with your audience and grow your brand on social media with our expert social media marketing services. Our team will develop a customized strategy that aligns with your brand's voice and values, creating engaging content and managing your social media channels to increase your visibility and attract new followers.",
+        "At our software agency, we provide top-tier UI/UX services. Our dedicated team designs visually stunning and intuitively functional interfaces, ensuring a seamless and engaging user experience for your digital products.*",
       icon: "ml-dat-63-database-computer-network-internet-globe-server",
       style: styles("ef"),
     },

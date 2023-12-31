@@ -10,43 +10,41 @@ const PricingSection = () => {
   const pricing = [
     {
       title: "SMALL BUSINESS",
-      price: "$590*",
+      price: "$5",
       facilities: [
-        "3 Pages Responsive Website",
-        "1 PPC Campaigns",
-        "10 SEO Keywords",
-        "Free Domain Name",
-        "Free Hosting (VPS)",
-        "Optional CDN (Content Delivery Network)",
+        "Backend Development",
+        "Website Development",
+        "Mobile App Development",
+        "Frontend Development",
+        "DevOps",
+        "UI/UX",
       ],
       style: styles("cd"),
     },
     {
       title: "MEDIUM BUSINESS",
-      price: "$1999$",
+      price: "$15$",
       facilities: [
-        "10 Pages Responsive Website",
-        "3 PPC Campaigns",
-        "25 SEO Keywords",
-        "Free Domain Name",
-        "Free Hosting (VDS)",
-        "Free CDN (Content Delivery Network) - Standard",
+        "Software Architect Consultaion",
+        "Project Management",
+        "Software Development Life Cylce",
+        "System Design",
       ],
       style: styles("ef"),
     },
-    {
-      title: "CORPORATE BUSINESS",
-      price: "let's Talk",
-      facilities: [
-        "Unlimited Pages Responsive Website",
-        "10 PPC Campaigns",
-        "50 SEO Keywords",
-        "5 Free Domain Name",
-        "Free Hosting (Dedicated)",
-        "Free CDN (Content Delivery Network) - Premium",
-      ],
-      style: styles("ab"),
-    },
+    // {
+    //   title: "CORPORATE BUSINESS",
+    //   price: "let's Talk",
+    //   facilities: [
+    //     "Unlimited Pages Responsive Website",
+    //     "10 PPC Campaigns",
+    //     "50 SEO Keywords",
+    //     "5 Free Domain Name",
+    //     "Free Hosting (Dedicated)",
+    //     "Free CDN (Content Delivery Network) - Premium",
+    //   ],
+    //   style: styles("ab"),
+    // },
   ];
 
   return (

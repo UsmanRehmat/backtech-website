@@ -105,18 +105,18 @@ const Navbar = () => {
   ];
 
   const navDropdown = [
-    { to: "/service/website/design", label: "Website Design" },
+    { to: "/service/website/design", label: "Backend Development" },
     { to: "/service/website/development", label: "Website Development" },
-    { to: "/service/logo", label: "Logo & Branding" },
-    { to: "/service/mobile", label: "Mobile App" },
-    { to: "/service/ppc", label: "Pay-Per-Click" },
-    { to: "/service/seo", label: "Search Engine Optimization" },
-    { to: "/service/smm", label: "Social Media Marketing" },
+    { to: "/service/mobile", label: "Mobile App Development" },
+    { to: "/service/logo", label: "Frontend Development" },
+    { to: "/service/ppc", label: "DevOps" },
+    { to: "/service/seo", label: "UI/UX" },
+    // { to: "/service/smm", label: "Social Media Marketing" },
   ];
 
   return (
     <React.Fragment>
-      <Bar expand="lg" className={`${scrolled ? "scrolled" : ""}`} style={{zIndex:101}}>
+      <Bar expand="lg" className={`${scrolled ? "scrolled" : ""}`} style={{ zIndex: 101 }}>
         <Container>
           <Bar.Brand href="/">
             <Image

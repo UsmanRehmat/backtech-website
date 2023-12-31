@@ -13,20 +13,20 @@ import { QuoteProvider } from "@context/QuoteContext";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kesency.com"),
-  title: "KESENCY - Digital Agency",
+  title: "BackTech Solutions",
   description:
     "A skilled team dedicated to bringing your vision and projects to life. Do you have a concept or a project in mind? We can turn it into reality for you: websites, applications, games—using custom technologies tailored to your specific needs",
   keywords: ["kesency", "digital-agency", "website", "development", "application"],
   openGraph: {
     type: "website",
-    url: "https://kesency.com/",
-    title: "KESENCY - Digital Agency",
+    url: "https://BackTechSolutions.com/",
+    title: "BackTech Solutions",
     description:
       "A skilled team dedicated to bringing your vision and projects to life. Do you have a concept or a project in mind? We can turn it into reality for you: websites, applications, games—using custom technologies tailored to your specific needs",
-    siteName: "KESENCY",
+    siteName: "BackTech Solutions",
     images: [
       {
-        url: "https://cdn.kesency.com/images/brand-logo.svg",
+        url: "https://cdn.kesency.com/images/brand-logo.svg", //logo of website
       },
     ],
   },
