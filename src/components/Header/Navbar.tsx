@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Navbar as Bar, Container } from "react-bootstrap";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 import { slideUp, fadeOut, slideToggle, fadeToggle } from "@utils/animation";
 import { GetQuoteButton } from "@components/Buttons/GetQuoteButton";
