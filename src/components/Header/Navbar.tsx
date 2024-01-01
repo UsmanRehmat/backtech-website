@@ -119,13 +119,14 @@ const Navbar = () => {
       <Bar expand="lg" className={`${scrolled ? "scrolled" : ""}`} style={{ zIndex: 101 }}>
         <Container>
           <Bar.Brand href="/">
-            <Image
+            <h1>BackTech Solutions</h1>
+            {/* <Image
               src="https://cdn.kesency.com/images/brand-logo.svg"
               alt="Brand Logo"
               className="img-fluid"
               width="207"
               height="87"
-            />
+            /> */}
           </Bar.Brand>
           <button
             className={`navbar-toggler ${toggleIconChanged ? "change" : ""}`}
